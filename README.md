@@ -3,7 +3,7 @@ Capteur environnemental intérieur basé sur le BME680 (Bosch), monté sur un ES
 Publie température, humidité, pression, résistance gaz et altitude via MQTT avec auto-discovery Home Assistant.
 
 Matériel
-ComposantDétailMicrocontrôleurESP8266 D1 MiniCapteurBosch BME680 (I2C)Alimentation5V USB
+ComposantDétailMicrocontrôleurESP8266 D1 MiniCapteurBosch BME680 (I2C)Alimentation3.3V USB
 Câblage I2C
 BME680D1 MiniVCC3.3VGNDGNDSDAD2 (GPIO4)SCLD1 (GPIO5)
 L'adresse I2C est détectée automatiquement (0x76 ou 0x77).
