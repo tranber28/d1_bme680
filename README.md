@@ -126,20 +126,6 @@ lib_deps =
 
 ---
 
-## Intégration Coggia / brain.py
-
-Ce capteur s'intègre dans le pipeline **Coggia** :
-
-```
-BME680 (ESP8266)
-    └── MQTT (interieur/bme680/pressure + altitude)
-            └── brain.py
-                    └── Correction pression → niveau mer
-                    └── Corrélation avec OpenMeteo
-                    └── Modèles IA (LinearRegression)
-                    └── ia/meteo/pressure → Home Assistant
-```
-
 La pression station est automatiquement corrigée vers le niveau de la mer en utilisant l'altitude dynamique publiée par le capteur.
 
 ---
