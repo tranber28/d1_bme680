@@ -5,9 +5,9 @@
 #include <Adafruit_BME680.h>
 
 // ── WiFi / MQTT ──────────────────────────────────────────────────────────────
-const char* WIFI_SSID   = "maison2";
-const char* WIFI_PASS   = "berber15";
-const char* MQTT_SERVER = "192.168.1.141";
+const char* WIFI_SSID   = "xxxxx";
+const char* WIFI_PASS   = "xxxxx";
+const char* MQTT_SERVER = "xxxxx";
 const int   MQTT_PORT   = 1883;
 const char* MQTT_ID     = "bme680-interieur";
 
